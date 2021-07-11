@@ -1,5 +1,4 @@
 package com.aayush.pingenerator;
-//import org.junit.jupiter.api.BeforeEach;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -14,7 +13,7 @@ import org.junit.jupiter.api.Test;
 
 public class PinGeneratorTest {
 
-	private PinGenerator pinGenerator;
+	public PinGenerator pinGenerator;
 
 	@BeforeEach
 	public void setUp() throws Exception {

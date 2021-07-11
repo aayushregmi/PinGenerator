@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.aayush.pingenerator.PinGeneratorTest" time="0.012" tests="6" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.aayush.pingenerator.PinGeneratorTest" time="0.051" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\test-classes;C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\classes;C:\Users\Aayush Regmi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Aayush Regmi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\test-classes;C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\classes;C:\Users\Aayush Regmi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Aayush Regmi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\AAYUSH~1\AppData\Local\Temp\surefire17565314437794401833\surefirebooter14996363426652086132.jar C:\Users\Aayush Regmi\AppData\Local\Temp\surefire17565314437794401833 2021-07-12T08-47-53_022-jvmRun1 surefire14035775250644811695tmp surefire_012882706033584276440tmp"/>
+    <property name="sun.java.command" value="C:\Users\AAYUSH~1\AppData\Local\Temp\surefire13313364323727927632\surefirebooter11290640147904675918.jar C:\Users\Aayush Regmi\AppData\Local\Temp\surefire13313364323727927632 2021-07-12T09-16-31_236-jvmRun1 surefire16828663743957081656tmp surefire_016296350095548663583tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\test-classes;C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\classes;C:\Users\Aayush Regmi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Aayush Regmi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\test-classes;C:\Users\Aayush Regmi\Desktop\Workspace\PinGenerator\pingenerator\target\classes;C:\Users\Aayush Regmi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Aayush Regmi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Aayush Regmi\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Aayush Regmi"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\AAYUSH~1\AppData\Local\Temp\surefire17565314437794401833\surefirebooter14996363426652086132.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AAYUSH~1\AppData\Local\Temp\surefire13313364323727927632\surefirebooter11290640147904675918.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -55,40 +55,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPins" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPins(PinGeneratorTest.java:67)
-</failure>
-  </testcase>
-  <testcase name="com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPinsForNull" classname="com.aayush.pingenerator.PinGeneratorTest" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPinsForNull(PinGeneratorTest.java:60)
-</failure>
-  </testcase>
-  <testcase name="com.aayush.pingenerator.PinGeneratorTest.testNextPinFunction" classname="com.aayush.pingenerator.PinGeneratorTest" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.aayush.pingenerator.PinGeneratorTest.testNextPinFunction(PinGeneratorTest.java:41)
-</failure>
-  </testcase>
-  <testcase name="com.aayush.pingenerator.PinGeneratorTest.testObjectCreation" classname="com.aayush.pingenerator.PinGeneratorTest" time="0">
-    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:118)
-	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:47)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:36)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:31)
-	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:284)
-	at com.aayush.pingenerator.PinGeneratorTest.testObjectCreation(PinGeneratorTest.java:27)
-]]></failure>
-  </testcase>
-  <testcase name="com.aayush.pingenerator.PinGeneratorTest.testDistinctPins" classname="com.aayush.pingenerator.PinGeneratorTest" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.aayush.pingenerator.PinGeneratorTest.testDistinctPins(PinGeneratorTest.java:51)
-</failure>
-  </testcase>
-  <testcase name="com.aayush.pingenerator.PinGeneratorTest.testPinGeneration" classname="com.aayush.pingenerator.PinGeneratorTest" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.aayush.pingenerator.PinGeneratorTest.testPinGeneration(PinGeneratorTest.java:33)
-</failure>
-  </testcase>
+  <testcase name="testNextPinFunction" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.024"/>
+  <testcase name="testGenerateSpecifiedPinsForNull" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.002"/>
+  <testcase name="testObjectCreation" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.002"/>
+  <testcase name="testGenerateSpecifiedPins" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.003"/>
+  <testcase name="testDistinctPins" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.004"/>
+  <testcase name="testPinGeneration" classname="com.aayush.pingenerator.PinGeneratorTest" time="0.002"/>
 </testsuite>
