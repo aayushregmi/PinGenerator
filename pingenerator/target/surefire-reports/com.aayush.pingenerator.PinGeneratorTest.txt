@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.aayush.pingenerator.PinGeneratorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.aayush.pingenerator.PinGeneratorTest
+com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPins()  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPins(PinGeneratorTest.java:67)
+
+com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPinsForNull()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aayush.pingenerator.PinGeneratorTest.testGenerateSpecifiedPinsForNull(PinGeneratorTest.java:60)
+
+com.aayush.pingenerator.PinGeneratorTest.testNextPinFunction()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aayush.pingenerator.PinGeneratorTest.testNextPinFunction(PinGeneratorTest.java:41)
+
+com.aayush.pingenerator.PinGeneratorTest.testObjectCreation()  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:118)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:47)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:36)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:31)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:284)
+	at com.aayush.pingenerator.PinGeneratorTest.testObjectCreation(PinGeneratorTest.java:27)
+
+com.aayush.pingenerator.PinGeneratorTest.testDistinctPins()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aayush.pingenerator.PinGeneratorTest.testDistinctPins(PinGeneratorTest.java:51)
+
+com.aayush.pingenerator.PinGeneratorTest.testPinGeneration()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aayush.pingenerator.PinGeneratorTest.testPinGeneration(PinGeneratorTest.java:33)
+
